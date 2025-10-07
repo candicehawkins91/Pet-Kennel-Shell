@@ -1,17 +1,31 @@
 
 let pet = {
-    name: "Taz",
-    species: "Dog",
-    happiness: 55,
-    play: function() {
-        this.happiness +=10
-        return("You played with " + pet.name + "!" + " Happpiness is now " + this.happiness + ".")
+  name: "Taz",
+  species: "Dog",
+  happiness: 55,
+  play: function () {
+    this.happiness += 10;
+    return (
+      "You played with " +
+      pet.name +
+      "!" +
+      " Happpiness is now " +
+      this.happiness +
+      "."
+    );
+  },
+  feed: function () {
+    this.happiness += 20;
+    return (
+      "You fed " + pet.name + "! " + "Happiness is now " + this.happiness + "."
+    );
+  },
+  status: function () {
+    console.log(
+      "Pet Name: " + pet.name + " Species: " + this.species + " Happiness: " + this.happiness);
     },
-    feed: function() {
-        this.happiness += 20
-        return("You fed " + pet.name +"! " +"Happiness is now " + this.happiness +".")
-    }
-}
-console.log(pet.feed())
+};
+pet.status()
+
 
 
