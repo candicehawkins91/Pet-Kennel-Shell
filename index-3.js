@@ -26,3 +26,8 @@ function CreatePet(name, species, happiness, energy){
     const pet3 = new CreatePet("Nyla","Cat", 65, 35);
 
     let kennel = []
+
+    const pet4 = new CreatePet("Nemo", "Fish", 100, 25)
+    const pet5 = new CreatePet("Smokey", "Cat", 85, 15)
+    const pet6 = new CreatePet("BoJingles", "Horse", 50, 50)
+    const
