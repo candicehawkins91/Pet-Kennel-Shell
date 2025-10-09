@@ -30,4 +30,8 @@ function CreatePet(name, species, happiness, energy){
     const pet4 = new CreatePet("Nemo", "Fish", 100, 25)
     const pet5 = new CreatePet("Smokey", "Cat", 85, 15)
     const pet6 = new CreatePet("BoJingles", "Horse", 50, 50)
-    const
+    const pet7 = new CreatePet("Tweetie", "Bird", 75, 0)
+    const pet8 = new CreatePet("Queenie", "Dog", 25, 25)
+
+    kennel.push{pet4, pet5, pet6, pet7, pet8}
+    
