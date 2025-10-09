@@ -33,5 +33,9 @@ function CreatePet(name, species, happiness, energy){
     const pet7 = new CreatePet("Tweetie", "Bird", 75, 0)
     const pet8 = new CreatePet("Queenie", "Dog", 25, 25)
 
-    kennel.push{pet4, pet5, pet6, pet7, pet8}
+    kennel.push = {pet4, pet5, pet6, pet7, pet8};
+console.log(kennel.push())
     
+kennel.push(
+
+)
