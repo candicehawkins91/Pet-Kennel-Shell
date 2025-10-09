@@ -39,7 +39,7 @@ let kennel = [];
 // Create more pets
 const pet4 = new CreatePet("Nemo", "Fish", 100, 25);
 const pet5 = new CreatePet("Smokey", "Cat", 85, 15);
-const pet6 = new CreatePet("BoJingles", "Horse", 50, 50);
+const pet6 = new CreatePet("BoJingles", "Horse", 50, 50); 
 const pet7 = new CreatePet("Tweetie", "Bird", 75, 0);
 const pet8 = new CreatePet("Queenie", "Dog", 25, 25);
 
