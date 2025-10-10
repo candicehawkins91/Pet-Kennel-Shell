@@ -22,7 +22,7 @@ function CreatePet(name, species, happiness,energy){
 
 }
 
-const pet1 = new CreatePet("Fluffy", "Dog", 50, 100);
+
 pet1.play();
 pet1.feed()
 pet1.status()
