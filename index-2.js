@@ -11,7 +11,8 @@ function CreatePet(name, species, happiness,energy){
     this.feed = function(){
         this.energy += 20; this.happiness +=20;
         return(`You fed ${this.name} ! Happiness is now ${this.happiness} and energy is now ${this.energy}`)
-    }this.status = function(){
+    }
+    this.status = function(){
         return(`Pet Name: ${this.name}
             Species: ${this.species}
             Happiness : ${this.happiness}
